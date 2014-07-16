@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="Judson-Regular.otf.GlyphOrder.ttx"/>
+  <head src="Judson-Regular.otf._h_e_a_d.ttx"/>
+  <hhea src="Judson-Regular.otf._h_h_e_a.ttx"/>
+  <maxp src="Judson-Regular.otf._m_a_x_p.ttx"/>
+  <OS_2 src="Judson-Regular.otf.O_S_2f_2.ttx"/>
+  <name src="Judson-Regular.otf._n_a_m_e.ttx"/>
+  <cmap src="Judson-Regular.otf._c_m_a_p.ttx"/>
+  <post src="Judson-Regular.otf._p_o_s_t.ttx"/>
+  <CFF src="Judson-Regular.otf.C_F_F_.ttx"/>
+  <FFTM src="Judson-Regular.otf.F_F_T_M_.ttx"/>
+  <GPOS src="Judson-Regular.otf.G_P_O_S_.ttx"/>
+  <GSUB src="Judson-Regular.otf.G_S_U_B_.ttx"/>
+  <hmtx src="Judson-Regular.otf._h_m_t_x.ttx"/>
+</ttFont>
