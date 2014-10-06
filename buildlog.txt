@@ -1,0 +1,155 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/judson/METADATA.json /home/travis/build/fontdirectory/judson/builds/build
+$ cp -a /home/travis/build/fontdirectory/judson/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/judson/builds/build
+$ cp -a /home/travis/build/fontdirectory/judson/FONTLOG.txt /home/travis/build/fontdirectory/judson/builds/build
+$ cp -a Judson-Regular.ttf.ttx Judson-Italic.ttf.ttx Judson-Bold.ttf.ttx src/Judson-Regular.otf.ttx src/Judson-Italic.otf.ttx src/Judson-Bold.otf.ttx src/Judson-Regular-TTF.sfd src/Judson-Italic-TTF.sfd src/Judson-Bold-TTF.sfd Judson-Regular.ttf._p_r_e_p.ttx Judson-Regular.ttf._p_o_s_t.ttx Judson-Regular.ttf._n_a_m_e.ttx Judson-Regular.ttf._m_a_x_p.ttx Judson-Regular.ttf._l_o_c_a.ttx Judson-Regular.ttf._h_m_t_x.ttx Judson-Regular.ttf._h_h_e_a.ttx Judson-Regular.ttf._h_e_a_d.ttx Judson-Regular.ttf._g_l_y_f.ttx Judson-Regular.ttf._f_p_g_m.ttx Judson-Regular.ttf._c_v_t.ttx Judson-Regular.ttf._c_m_a_p.ttx Judson-Regular.ttf.O_S_2f_2.ttx Judson-Regular.ttf.GlyphOrder.ttx Judson-Regular.ttf.G_S_U_B_.ttx Judson-Regular.ttf.G_P_O_S_.ttx Judson-Regular.ttf.G_D_E_F_.ttx Judson-Regular.ttf.F_F_T_M_.ttx Judson-Regular.ttf.D_S_I_G_.ttx Judson-Italic.ttf._p_r_e_p.ttx Judson-Italic.ttf._p_o_s_t.ttx Judson-Italic.ttf._n_a_m_e.ttx Judson-Italic.ttf._m_a_x_p.ttx Judson-Italic.ttf._l_o_c_a.ttx Judson-Italic.ttf._h_m_t_x.ttx Judson-Italic.ttf._h_h_e_a.ttx Judson-Italic.ttf._h_e_a_d.ttx Judson-Italic.ttf._g_l_y_f.ttx Judson-Italic.ttf._f_p_g_m.ttx Judson-Italic.ttf._c_v_t.ttx Judson-Italic.ttf._c_m_a_p.ttx Judson-Italic.ttf.O_S_2f_2.ttx Judson-Italic.ttf.GlyphOrder.ttx Judson-Italic.ttf.G_S_U_B_.ttx Judson-Italic.ttf.G_P_O_S_.ttx Judson-Italic.ttf.G_D_E_F_.ttx Judson-Italic.ttf.F_F_T_M_.ttx Judson-Italic.ttf.D_S_I_G_.ttx Judson-Bold.ttf._p_r_e_p.ttx Judson-Bold.ttf._p_o_s_t.ttx Judson-Bold.ttf._n_a_m_e.ttx Judson-Bold.ttf._m_a_x_p.ttx Judson-Bold.ttf._l_o_c_a.ttx Judson-Bold.ttf._h_m_t_x.ttx Judson-Bold.ttf._h_h_e_a.ttx Judson-Bold.ttf._h_e_a_d.ttx Judson-Bold.ttf._g_l_y_f.ttx Judson-Bold.ttf._f_p_g_m.ttx Judson-Bold.ttf._c_v_t.ttx Judson-Bold.ttf._c_m_a_p.ttx Judson-Bold.ttf.O_S_2f_2.ttx Judson-Bold.ttf.GlyphOrder.ttx Judson-Bold.ttf.G_S_U_B_.ttx Judson-Bold.ttf.G_P_O_S_.ttx Judson-Bold.ttf.G_D_E_F_.ttx Judson-Bold.ttf.F_F_T_M_.ttx Judson-Bold.ttf.D_S_I_G_.ttx src/Judson-Regular.otf._p_o_s_t.ttx src/Judson-Regular.otf._n_a_m_e.ttx src/Judson-Regular.otf._m_a_x_p.ttx src/Judson-Regular.otf._h_m_t_x.ttx src/Judson-Regular.otf._h_h_e_a.ttx src/Judson-Regular.otf._h_e_a_d.ttx src/Judson-Regular.otf._c_m_a_p.ttx src/Judson-Regular.otf.O_S_2f_2.ttx src/Judson-Regular.otf.GlyphOrder.ttx src/Judson-Regular.otf.G_S_U_B_.ttx src/Judson-Regular.otf.G_P_O_S_.ttx src/Judson-Regular.otf.F_F_T_M_.ttx src/Judson-Regular.otf.C_F_F_.ttx src/Judson-Italic.otf._p_o_s_t.ttx src/Judson-Italic.otf._n_a_m_e.ttx src/Judson-Italic.otf._m_a_x_p.ttx src/Judson-Italic.otf._h_m_t_x.ttx src/Judson-Italic.otf._h_h_e_a.ttx src/Judson-Italic.otf._h_e_a_d.ttx src/Judson-Italic.otf._c_m_a_p.ttx src/Judson-Italic.otf.O_S_2f_2.ttx src/Judson-Italic.otf.GlyphOrder.ttx src/Judson-Italic.otf.G_P_O_S_.ttx src/Judson-Italic.otf.F_F_T_M_.ttx src/Judson-Italic.otf.C_F_F_.ttx src/Judson-Bold.otf._p_o_s_t.ttx src/Judson-Bold.otf._n_a_m_e.ttx src/Judson-Bold.otf._m_a_x_p.ttx src/Judson-Bold.otf._h_m_t_x.ttx src/Judson-Bold.otf._h_h_e_a.ttx src/Judson-Bold.otf._h_e_a_d.ttx src/Judson-Bold.otf._c_m_a_p.ttx src/Judson-Bold.otf.O_S_2f_2.ttx src/Judson-Bold.otf.GlyphOrder.ttx src/Judson-Bold.otf.G_P_O_S_.ttx src/Judson-Bold.otf.F_F_T_M_.ttx src/Judson-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/judson/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold-TTF.sfd /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic-TTF.sfd /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Judson-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Judson-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Judson-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.otf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Medium.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Judson-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Judson-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Judson-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.ttf.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream Judson-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Judson-Italic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Judson-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/judson/builds/build /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold.ttx /home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Medium.ttx
+ERROR: BUILD FAILED
+strippedname:/home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Italic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/judson/builds/build/sources/Judson-Regular.ttx" to "/home/travis/build/fontdirectory/judson/builds/build/Judson-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...

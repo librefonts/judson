@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Judson-Regular.ttf.ttx, Judson-Italic.ttf.ttx, Judson-Bold.ttf.ttx,
+  src/Judson-Regular.otf.ttx, src/Judson-Italic.otf.ttx, src/Judson-Bold.otf.ttx,
+  src/Judson-Regular-TTF.sfd, src/Judson-Italic-TTF.sfd, src/Judson-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
